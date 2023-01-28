@@ -1,0 +1,15 @@
+$ kubectl get pods
+NAME                             READY   STATUS    RESTARTS   AGE
+blue-8475cbdf46-4rqvw            1/1     Running   0          36m
+blue-8475cbdf46-9r9v7            1/1     Running   0          34m
+blue-8475cbdf46-jn7nv            1/1     Running   0          36m
+canary-v1-64598c676f-2tg6g       1/1     Running   0          36m
+canary-v2-5dc9c56687-2cldd       1/1     Running   0          92s
+canary-v2-5dc9c56687-69vjn       1/1     Running   0          12m
+canary-v2-5dc9c56687-8jvds       1/1     Running   0          91s
+canary-v2-5dc9c56687-ftncz       1/1     Running   0          46s
+canary-v2-5dc9c56687-pjws6       1/1     Running   0          12m
+canary-v2-5dc9c56687-rqjkf       1/1     Running   0          15m
+canary-v2-5dc9c56687-smc69       1/1     Running   0          46s
+debug-curl                       1/1     Running   0          21m
+kube-ops-view-5557846b44-wb8tm   1/1     Running   0          36m

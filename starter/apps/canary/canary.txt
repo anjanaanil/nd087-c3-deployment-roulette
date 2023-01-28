@@ -1,0 +1,43 @@
+$ kubectl exec -it debug-curl sh
+kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
+# # curl 172.20.129.11
+# curl 172.20.129.11
+<html>
+<h1>This is version 1</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 1</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 1</h1>
+</html>
+# curl 172.20.129.11
+<html>
+<h1>This is version 2</h1>
+</html>
